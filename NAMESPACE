@@ -1,0 +1,9 @@
+## exporting functions
+
+## SSbgf.R
+export(bgf)
+export(SSbgf)
+export(bgf2)
+
+## logis.R
+export(logis)
