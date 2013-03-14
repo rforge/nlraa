@@ -1,5 +1,5 @@
 %\VignetteIndexEntry{Nonlinear Models}
-%\VignetteDepends{nlme, ggplot2, nlraa}
+%\VignetteDepends{nlme, nlraa}
 
 \documentclass[12pt]{article}
 \usepackage{Sweave,amsmath,amsfonts,bm}
