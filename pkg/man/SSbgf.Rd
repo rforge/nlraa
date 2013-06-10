@@ -15,23 +15,26 @@ SSbgf(time, w.max, t.e, t.m)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{time}{
-%%     ~~Describe \code{time} here~~
-}
-  \item{w.max}{
-%%     ~~Describe \code{w.max} here~~
-}
-  \item{t.e}{
-%%     ~~Describe \code{t.e} here~~
-}
-  \item{t.m}{
-%%     ~~Describe \code{t.m} here~~
-}
+    a numeric vector of values at which to evaluate the model. This is
+    typically expressed in some measure of time.
+    
+  }
+  \item{w.max}{ A numeric parameter representing the maximum weight (or
+    biomass).  }
+
+  \item{t.e}{ A numeric parameter representing the time at
+    which maximum weight is attained (w.max).  }
+
+  \item{t.m}{ A numeric
+parameter representing the time at which the inflection point of the
+curve is attained. The maximum growth rate ocurrs at this time.  }
+
 }
 \details{
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-returns a numeric vector
+returns a numeric vector of the same length as the input
 %%  ~Describe the value returned
 %%  If it is a LIST, use
 %%  \item{comp1 }{Description of 'comp1'}
@@ -39,7 +42,8 @@ returns a numeric vector
 %% ...
 }
 \references{
-%% ~put references to the literature/web site here ~
+Yin, X., J. Goudriaan, E.A. Lantinga, J. Vos, and J.H.J. Spiertz. 2003b. A flexible sigmoid function of determinate growth. Annals of Botany 91: 361–371. (with
+erratum in Annals of Botany 91: 753, 2003).
 }
 \author{
  Fernando E. Miguez

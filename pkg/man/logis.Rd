@@ -13,16 +13,18 @@ logis(x, Asym, xmid, scal)
 %- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{x}{
-%%     ~~Describe \code{x} here~~
+a numeric vector of values at which to evaluate the model.
 }
-  \item{Asym}{
-%%     ~~Describe \code{Asym} here~~
+\item{Asym}{
+   a numeric parameter representing the asymptote.
 }
   \item{xmid}{
-%%     ~~Describe \code{xmid} here~~
+ a numeric parameter representing the ‘x’ value at the
+          inflection point of the curve.  The value of ‘SSlogis’ will
+          be ‘Asym/2’ at ‘xmid’.
 }
   \item{scal}{
-%%     ~~Describe \code{scal} here~~
+ a numeric scale parameter on the ‘input’ axis.
 }
 }
 \details{
@@ -45,7 +47,8 @@ Fernando E. Miguez
 %% ~Make other sections like Warning with \section{Warning }{....} ~
 
 \seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
+  %% ~~objects to See Also as \code{\link{help}}, ~~~
+  \code{\link{SSlogis}}
 }
 \examples{
 logis(3, 20, 5, 1)
