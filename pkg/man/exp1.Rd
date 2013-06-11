@@ -7,7 +7,7 @@
 %%  ~~function to do ... ~~
 }
 \description{
-  First order exponential
+  First order exponential decrease (exp1) or increase (exp2)
 %%  ~~ A concise (1-5 lines) description of what the function does. ~~
 }
 \usage{
@@ -30,11 +30,8 @@ exp1(time, Yo, rate)
 %%  ~~ If necessary, more details than the description above ~~
 }
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
-%%  \item{comp1 }{Description of 'comp1'}
-%%  \item{comp2 }{Description of 'comp2'}
-%% ...
+  a numeric vector of length equal to the inputs
+
 }
 \references{
 %% ~put references to the literature/web site here ~

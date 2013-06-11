@@ -7,3 +7,9 @@ export(bgf2)
 
 ## logis.R
 export(logis)
+
+## exponential.R
+export(exp1)
+export(exp2)
+
+
