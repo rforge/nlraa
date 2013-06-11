@@ -12,4 +12,20 @@ exp2 <- function(time, Yo, rate){
   return(ans)
 }
 
+########################################################################################################
+## Equation 2. Parallel or double first order exponential (see text for description) 
+
+exp3 <- function(time, Yo, rate1, rate2, fraction){
+  ans <- Yo * (fraction* exp(-rate1*time) + (1-fraction)*exp(-rate2*time))       # Decreasing pattern
+  return(ans)
+}
+
+exp4 <- function(time, Yo, rate1, rate2, fraction){
+   ans <- Yo- (Yo * (fraction* exp(-rate1*time) + (1-fraction)*exp(-rate2*time)))  # Increasing  pattern
+   return(ans)
+}
+
+
+
+
 
