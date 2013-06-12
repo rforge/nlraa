@@ -6,7 +6,8 @@
   Parallel or double first order exponential
 }
 \description{
-  Parallel or double first order exponential
+  Parallel or double first order exponential. This is equation 1.3 in
+  Table S.1 referenced in the paper below.
 }
 \usage{
 exp3(time, Yo, rate1, rate2, fraction)
@@ -38,6 +39,9 @@ exp3(time, Yo, rate1, rate2, fraction)
 
 }
 \references{
+  Nonlinear Regression Models and Applications in Agricultural Research.
+  Sotirios V. Archontoulis and
+  Fernando E. Miguez. Agronomy Journal. doi: 10.2134/agronj2012.0506 
 %% ~put references to the literature/web site here ~
 }
 \author{

@@ -7,8 +7,8 @@
 %%  ~~function to do ... ~~
 }
 \description{
-  First order exponential decrease (exp1) or increase (exp2)
-%%  ~~ A concise (1-5 lines) description of what the function does. ~~
+  First order exponential decrease (exp1) or increase (exp2). These are
+  equations 1.1 and 1.2 in Table 1 in the paper referenced below.
 }
 \usage{
 exp1(time, Yo, rate)
@@ -34,6 +34,10 @@ exp1(time, Yo, rate)
 
 }
 \references{
+  Nonlinear Regression Models and Applications in Agricultural Research.
+  Sotirios V. Archontoulis and
+  Fernando E. Miguez. Agronomy Journal. doi: 10.2134/agronj2012.0506 
+
 %% ~put references to the literature/web site here ~
 }
 \author{
@@ -57,8 +61,8 @@ ans1 <- exp1(time, Yo=1, rate=0.01)
 ans2 <- exp1(time, Yo=1, rate=0.05)
 ans3 <- exp1(time, Yo=1, rate=-0.01)
 
-## plot
-xyplot(ans1 + ans2 + ans3 ~ time, type="l", auto.key=TRUE, ylab = "OM decomposition", xlab = "time")
+xyplot(ans1 + ans2 + ans3 ~ time, type="l", auto.key=TRUE,
+       ylab = "OM decomposition", xlab = "time")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

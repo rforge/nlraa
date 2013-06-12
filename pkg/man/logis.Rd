@@ -5,7 +5,8 @@
 Logistic growth function
 }
 \description{
-Teh logistic growth function corresponding to the SSlogis selfStart
+The logistic growth function corresponding to the SSlogis
+selfStart. This is Eq 2.1 in Table 1 in the paper referenced below.
 }
 \usage{
 logis(x, Asym, xmid, scal)
@@ -35,7 +36,9 @@ a numeric vector of length equal to the inputs
 
 }
 \references{
-%% ~put references to the literature/web site here ~
+    Nonlinear Regression Models and Applications in Agricultural Research.
+  Sotirios V. Archontoulis and
+  Fernando E. Miguez. Agronomy Journal. doi: 10.2134/agronj2012.0506 
 }
 \author{
 Fernando E. Miguez

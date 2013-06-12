@@ -12,4 +12,9 @@ export(logis)
 export(exp1)
 export(exp2)
 
+## Nlai.R
+export(Nlai)
 
+## richards.R
+export(rich)
+export(gompertz)

@@ -8,7 +8,11 @@
 
 \description{
   Function used to describe
-leaf N distribution within canopies (Jonshon et al., 2010 AoB) } \usage{
+  leaf N distribution within canopies (Jonshon et al., 2010 AoB). This
+  is equation 1.9 in Table S.1 in the paper referenced below.
+}
+
+\usage{
 Nlai(lai, Yo, nb, kn, c)
 }
 
@@ -40,11 +44,13 @@ Nlai(lai, Yo, nb, kn, c)
     a numeric vector of length equal to the inputs
 }
 \references{
-%% ~put references to the literature/web site here ~
+  Nonlinear Regression Models and Applications in Agricultural Research.
+  Sotirios V. Archontoulis and
+  Fernando E. Miguez. Agronomy Journal. doi: 10.2134/agronj2012.0506 
+  %% ~put references to the literature/web site here ~
 }
 \author{
   Fernando E. Miguez
-  Sotiris Archontoulis
 }
 \note{
 %%  ~~further notes~~
