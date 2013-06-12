@@ -33,3 +33,7 @@ gompertz  <- function(time, tmax, theta, Yo){
 
 }
 
+weibull <-   function(time, a, b, Yo){
+  ans  <- Yo*(1-exp(-1*a*(time)^b))
+  return(ans)
+}
