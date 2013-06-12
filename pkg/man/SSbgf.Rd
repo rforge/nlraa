@@ -7,7 +7,9 @@
 selfStart for the beta growth function
 }
 \description{
-Implements some self starting rules for the beta growth function as desribed by Yin et. al
+Implements some self starting rules for the beta growth function as
+desribed by Yin et. al (2003). This is equation 2.5 in the paper
+referenced below (Archontoulis and Miguez).
 }
 \usage{
 SSbgf(time, w.max, t.e, t.m)
@@ -44,6 +46,10 @@ returns a numeric vector of the same length as the input
 \references{
 Yin, X., J. Goudriaan, E.A. Lantinga, J. Vos, and J.H.J. Spiertz. 2003b. A flexible sigmoid function of determinate growth. Annals of Botany 91: 361–371. (with
 erratum in Annals of Botany 91: 753, 2003).
+
+    Nonlinear Regression Models and Applications in Agricultural Research.
+  Sotirios V. Archontoulis and
+  Fernando E. Miguez. Agronomy Journal. doi: 10.2134/agronj2012.0506 
 }
 \author{
  Fernando E. Miguez
