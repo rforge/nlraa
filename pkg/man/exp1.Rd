@@ -37,8 +37,6 @@ exp1(time, Yo, rate)
   Nonlinear Regression Models and Applications in Agricultural Research.
   Sotirios V. Archontoulis and
   Fernando E. Miguez. Agronomy Journal. doi: 10.2134/agronj2012.0506 
-
-%% ~put references to the literature/web site here ~
 }
 \author{
   Fernando E. Miguez

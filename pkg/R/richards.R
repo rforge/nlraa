@@ -28,14 +28,8 @@ rich  <- function(time, tmax, theta, v, Yo){
 
 
 gompertz  <- function(time, tmax, theta, Yo){
-  Y  <- Yo*exp(-1*exp(-1*theta*(time - tmax)))  
+  ans  <- Yo*exp(-1*exp(-1*theta*(time - tmax)))
+  return(ans)
 
 }
 
-## Set parameter values and plot the relationship
-time <- seq(0, 150,5)
-ans1 <- Y(time, tmax = 60, theta = 0.09, Yo=100)
-ans2 <- Y(time, tmax = 60, theta = 0.07, Yo=100)
-ans3 <- Y(time, tmax = 60, theta = 0.05, Yo=100)
-ans4 <- Y(time, tmax = 60, theta = 0.03, Yo=100)
-xyplot(ans1 + ans2 + ans3 + ans4 ~ time, type="l", auto.key=TRUE, ylab = "text", xlab = "time")
