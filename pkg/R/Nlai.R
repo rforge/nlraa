@@ -6,7 +6,7 @@
 ## c emprical paramater, when c>1 then the decay takes an inverse S shape
 
 Nlai <- function(lai, Yo, nb, kn, c){
-  ans <- Yo-(Yo-nb)*(1-exp(-kn*LAI))^c
+  ans <- Yo-(Yo-nb)*(1-exp(-kn*lai))^c
   return(ans)
 }
 
