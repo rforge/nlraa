@@ -54,6 +54,7 @@ Remark at time = 0, Y is not zero
   \code{\link{SSgompertz}}
 }
 \examples{
+require(lattice)
 ## Set parameter values and plot the relationship
 time <- seq(0, 150,5)
 ans1 <- gompertz(time, tmax = 60, theta = 0.09, Yo=100)
@@ -65,4 +66,3 @@ xyplot(ans1 + ans2 + ans3 + ans4 ~ time, type="l", auto.key=TRUE, ylab = "text",
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
 \keyword{ models }
-\keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

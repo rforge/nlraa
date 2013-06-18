@@ -21,3 +21,4 @@ export(Nlai)
 ## richards.R
 export(rich)
 export(gompertz)
+export(weibull)

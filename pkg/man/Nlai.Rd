@@ -69,7 +69,8 @@ ans1 <- Nlai(lai, Yo=2, nb=0.4, kn=0.5, c=1)
 ans2 <- Nlai(lai, Yo=2, nb=0.4, kn=0.5, c=4)
 ans3 <- Nlai(lai, Yo=2, nb=0.4, kn=0.5, c=8)
 ans4 <- Nlai(lai, Yo=2, nb=0.4, kn=0.5, c=12)
-xyplot(ans1 + ans2 + ans3 + ans4~ lai, type="l", auto.key=TRUE, ylab = "N distribution", xlab = "LAI")
+xyplot(ans1 + ans2 + ans3 + ans4~ lai, type="l",
+      auto.key=TRUE, ylab = "N distribution", xlab = "LAI")
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

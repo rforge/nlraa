@@ -59,6 +59,7 @@ error. But see SSweibull.
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+require(lattice)
 ## Set parameter values and plot the relationship
 time <- seq(0, 200,5)
 ans1 <- weibull(time, a = 0.00025, b = 0.5, Yo=100)

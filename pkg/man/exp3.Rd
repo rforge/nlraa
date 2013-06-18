@@ -59,6 +59,7 @@ exp3(time, Yo, rate1, rate2, fraction)
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
+require(lattice)
 ## Set parameter values and plot the relationship
 time <- seq(0, 100,5)
 ans1 <- exp3(time, Yo=1, rate1=0.01, rate2=0.05, fraction=0.3)
